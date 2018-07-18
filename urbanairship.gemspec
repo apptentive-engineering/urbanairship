@@ -1,5 +1,3 @@
-require 'rake'
-
 Gem::Specification.new do |s|
   s.name = 'urbanairship'
   s.version = '2.3.3'
@@ -16,6 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'fakeweb'
+  s.add_development_dependency 'rake'
 
   s.required_ruby_version = '>= 1.8.6'
 end
