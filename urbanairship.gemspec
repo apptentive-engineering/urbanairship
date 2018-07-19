@@ -7,8 +7,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/groupon/urbanairship'
   s.authors = ['Groupon, Inc.']
   s.email = ['rubygems@groupon.com']
-  s.files = FileList['README.markdown', 'LICENSE', 'Rakefile', 'lib/**/*.rb'].to_a
-  s.test_files = FileList['spec/**/*.rb'].to_a
+  s.files = Dir.glob("lib/**/*") + %w(README.markdown LICENSE Rakefile)
 
   s.add_dependency 'json'
 
